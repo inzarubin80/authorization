@@ -56,20 +56,17 @@ export default function Start() {
                 exceptionHandlingFunction('')
             } else {
                 setTime(json.time);
-                setNumberSessions(json.numberSessions); 
+                setNumberSessions(json.numberSessions);
             }
         }
 
         const exceptionHandlingFunction = (error) => {
             setTime('');
-            setNumberSessions(''); 
+            setNumberSessions('');
         };
-        
-        executorRequests(functionRequest, responseHandlingFunction, exceptionHandlingFunction, dispatch)  
 
-       
+        executorRequests(functionRequest, responseHandlingFunction, exceptionHandlingFunction, dispatch)
     }
-
 
 
     return (
@@ -78,14 +75,14 @@ export default function Start() {
             <Typography xs={12} variant="h6" component="h6">
                 Тест вызова защищенного api 1c
             </Typography>
-  
+
             <Typography variant="body2" color="textSecondary" component="p">
                 Время серверва 1с:  {time}
             </Typography>
 
-            
+
             <Button variant="contained" color="primary" onClick={() => testHendle()}>
-              Вызов
+                Вызов
             </Button>
 
 

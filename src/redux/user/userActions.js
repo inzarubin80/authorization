@@ -24,7 +24,7 @@ import {
 
 } from '../types'
 
-import { executorRequests, getConformationCodeApi, login as loginApi, passwordChange,getKeyChangeApi } from '../../api/dataService1c';
+import { executorRequests, getConfirmationCodeApi, login as loginApi, passwordChange,getKeyChangeApi } from '../../api/dataService1c';
 
 
 const setLoginSuccess = (loginData) => {
@@ -167,21 +167,21 @@ export const setPassword = (passwordСhangeKey, password, cb) => {
 
 ///////////////////////////////////////////////////////////////////
 
-export const getConformationCodeRequest = (userID) => {
+export const getConfirmationCodeRequest = (userID) => {
   return {
     type: CONFIRMATION_CODE_REQUEST,
     payload: { userID}
   };
 }
 
-export const getConformationCodeFailure = (err) => {
+export const getConfirmationCodeFailure = (err) => {
   return {
     type: CONFIRMATION_CODE_FAILURE,
     payload: err
   };
 }
 
-export const getConformationCodeSuccess = (requestKey) => {
+export const getConfirmationCodeSuccess = (requestKey) => {
   return {
     type: CONFIRMATION_CODE_SUCCESS,
     payload: requestKey
@@ -196,23 +196,23 @@ export const getConfirmationСode = (userID) => {
   return (dispatch) => {
 
 
-    dispatch(getConformationCodeRequest(userID));
+    dispatch(getConfirmationCodeRequest(userID));
 
     const functionRequest = () => {
-      return getConformationCodeApi(userID);
+      return getConfirmationCodeApi(userID);
     };
 
     const responseHandlingFunction = (json) => {
       
       if (json.error) {
-        dispatch(getConformationCodeFailure(json.error));
+        dispatch(getConfirmationCodeFailure(json.error));
       } else {
-        dispatch(getConformationCodeSuccess(json.requestKey));
+        dispatch(getConfirmationCodeSuccess(json.requestKey));
       }
     }
 
     const exceptionHandlingFunction = (error) => {
-      dispatch(getConformationCodeFailure(error));
+      dispatch(getConfirmationCodeFailure(error));
     };
 
     executorRequests(functionRequest, responseHandlingFunction, exceptionHandlingFunction, dispatch);
