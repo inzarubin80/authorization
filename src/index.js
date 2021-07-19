@@ -9,12 +9,14 @@ import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk'
 import rootReducer from './redux/rootReducer';
 
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import { ThemeProvider,createTheme } from '@material-ui/core/styles';
 import { ruRU } from '@material-ui/core/locale';
 
 import FingerprintJS from '@fingerprintjs/fingerprintjs'
 
-const theme = createMuiTheme({
+
+
+const theme = createTheme({
   palette: {
     //  primary: { main: '#1976d2' },
   },

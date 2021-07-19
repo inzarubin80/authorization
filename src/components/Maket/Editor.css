@@ -1,0 +1,8 @@
+
+  .editor {
+    border: 2px solid #F1F1F1;
+    padding: 5px;
+    border-radius: 2px;
+    height: auto;
+    min-height: 100px;
+  }

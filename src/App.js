@@ -6,8 +6,12 @@ import PasswordChange from './components/PasswordChange/PasswordChange';
 import Heder from './components/Heder/Heder.js';
 import Start from './components/Start/Start';
 import GetCode from './components/GetCode/GetCode';
+import Projects from './components/Projects/Projects';
 
-
+import { MaketCardState } from './context/MaketCard/MaketCardState';
+import { ReportsState } from './context/Reports/ReportsState';
+import { MaketProjectState } from './context/ProjectMaket/MaketProjectState';
+//import { MaketsState } from './context/Makets/MaketsState';
 
 
 
@@ -29,27 +33,35 @@ function App() {
 
                     <Switch>
 
-                        
+
 
                         <Route path="/login">
                             <Login />
                         </Route>
 
                         <Route path="/password-change/:key">
-                            <PasswordChange/>
+                            <PasswordChange />
                         </Route>
-                        
+
                         <Route path="/get-code">
-                            <GetCode/>
+                            <GetCode />
                         </Route>
-                        
+
                         <PrivateRoute exact path="/">
                             <Start />
                         </PrivateRoute>
 
+                        <PrivateRoute exact path="/projects">
+                                <Projects/>
+                        </PrivateRoute>
+                        
+
                         <Route path="*">
                             <NoMatch />
                         </Route>
+
+                        
+
 
                     </Switch>
                 </>
@@ -89,7 +101,7 @@ function NoMatch() {
         <div>
             <h3>
                 Возможно, ссылка не работает или страница удалена. Проверьте правильность ссылки, по которой вы пытаетесь перейти.
-        </h3>
+            </h3>
         </div>
     );
 }

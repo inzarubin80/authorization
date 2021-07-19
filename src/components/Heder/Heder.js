@@ -172,9 +172,9 @@ export default function Heder(props) {
           <Divider />
           <List>
 
-            <ListItem onClick={handleDrawerClose} component={Link} to={"/makets"} button key={'Makets'}>
+          <ListItem onClick={handleDrawerClose} component={Link} to={"/projects"} button key={'projects'}>
               <ListItemIcon>   <InboxIcon /> </ListItemIcon>
-              <ListItemText primary={"Какая то страница которой нет"} />
+              <ListItemText primary={"Проекты"} />
             </ListItem>
 
 
