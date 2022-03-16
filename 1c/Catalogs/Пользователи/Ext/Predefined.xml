@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.11">
+	<Item id="971d6831-cb86-4f72-b2ab-4e4b6f47eacb">
+		<Name>ВнешниеПользователи</Name>
+		<Code>ВнешниеПользователи                               </Code>
+		<Description>Внешние пользователи</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+</PredefinedData>

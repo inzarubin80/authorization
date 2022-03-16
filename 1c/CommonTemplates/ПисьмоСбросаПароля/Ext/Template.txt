@@ -1,0 +1,44 @@
+﻿<html>
+
+<head></head>
+
+<body>
+
+    <div>
+
+        <table cellpadding="0" cellspacing="0" border="0"
+            style="color: rgb(34, 34, 34); font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size: 1px; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); padding: 0px; margin: 0px; line-height: 1px;">
+
+            <tbody>
+
+                <tr>
+
+                    <td align="left;"
+                        style="font-family: HelveticaNeue, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px; padding: 0px; font-size: 24px; line-height: 32px; font-weight: bold; color: rgb(41, 47, 51);">
+                        Сбросить пароль?</td>
+                </tr>
+
+                <tr>
+
+                    <td height="12" style="margin: 0px; padding: 0px; line-height: 1px;"></td>
+                </tr>
+
+                <tr>
+
+                    <td align="left;"
+                        style="font-family: HelveticaNeue, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; margin: 0px; padding: 0px; font-size: 16px; line-height: 20px; color: rgb(41, 47, 51);">
+                        Если вы хотите сбросить пароль для &ИмяПользователя, <br>используйте указанный ниже код.
+                        <br>Если вы не запрашивали сброс пароля, проигнорируйте это письмо.<br><b
+                            style="background-color: transparent;">&КодПодтверждения</b>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div></div>
+
+
+</body>
+
+</html>

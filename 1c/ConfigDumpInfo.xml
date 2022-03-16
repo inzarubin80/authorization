@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
+	<ConfigVersions>
+		<Metadata name="Catalog.Пользователи" id="b790078b-7b91-4ff3-94b9-167db6283a57" configVersion="b5cc9506ef1cf84389f4dd393f43fd1800000000">
+			<Metadata name="Catalog.Пользователи.Command.ОтправитьПриглашение" id="90fcf77e-082a-41d5-8481-b5c12944d25e"/>
+			<Metadata name="Catalog.Пользователи.Attribute.ВнешнийПользовательЗаблокирован" id="99258c71-d855-4b9e-ad19-fb1cffc45392"/>
+		</Metadata>
+		<Metadata name="Catalog.Пользователи.Command.ОтправитьПриглашение.CommandModule" id="90fcf77e-082a-41d5-8481-b5c12944d25e.2" configVersion="fd83c4a6f0da7745b411784d216ce9be00000000"/>
+		<Metadata name="Catalog.Пользователи.Help" id="b790078b-7b91-4ff3-94b9-167db6283a57.1" configVersion="275646cc1e604a4e869eaea59724aa8a00000000"/>
+		<Metadata name="Catalog.Пользователи.ManagerModule" id="b790078b-7b91-4ff3-94b9-167db6283a57.3" configVersion="c22b5e99450dc44584f910b83213a9d500000000"/>
+		<Metadata name="Catalog.Пользователи.ObjectModule" id="b790078b-7b91-4ff3-94b9-167db6283a57.0" configVersion="f530bb0b27e5a246b3f0b0458dc35bbf00000000"/>
+		<Metadata name="Catalog.Пользователи.Predefined" id="b790078b-7b91-4ff3-94b9-167db6283a57.1c" configVersion="d4cb5dd70caf6441b4fae35be94c4d0000000000"/>
+		<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты" id="4029e290-e0d5-4d10-8ea1-5fa2cfa75572" configVersion="e352d043e33a054b8896e147fccbd58700000000">
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.ПортPOP3" id="04495296-f296-459f-8fc8-978d39132606"/>
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.SMTPСервер" id="09640580-24fc-4ba8-8ac1-b57459685055"/>
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.Логин" id="0996ecda-dba3-47ee-9f30-b0a4b56ba42b"/>
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.ПарольSMTP" id="16234f0d-73a6-411e-b71f-67c195f3c66a"/>
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.Пароль" id="4e09f711-7ddb-4e10-8747-2b2976963a03"/>
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.POP3Сервер" id="5d9992b9-c32e-4fad-ace7-402eca549d9c"/>
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.ВремяОжиданияСервера" id="a5befb6e-cb49-4c91-a5e9-b627e345e4d3"/>
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.ЛогинSMTP" id="aee53952-74f5-4541-95d2-105d99e738ff"/>
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.SMTPАутентификация" id="b4da8e18-67fa-45fd-9b78-4fe51c21a4e1"/>
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.ПортSMTP" id="b4dbb34c-2cf9-4ba0-8caf-940d924d19f8"/>
+		</Metadata>
+		<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.ManagerModule" id="4029e290-e0d5-4d10-8ea1-5fa2cfa75572.3" configVersion="95bcf4c50da5ed42b9d1e224671ea7b400000000"/>
+		<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Predefined" id="4029e290-e0d5-4d10-8ea1-5fa2cfa75572.1c" configVersion="58268da2d824b44ab5f155e9a1194dfe00000000"/>
+		<Metadata name="CommonModule.Авторизация" id="00d4a31c-2973-4fb8-96bf-f0a07147915f" configVersion="6a318aa3b0d4d241b1542bf5d41a27db00000000"/>
+		<Metadata name="CommonModule.Авторизация.Module" id="00d4a31c-2973-4fb8-96bf-f0a07147915f.0" configVersion="bc365bc20da4c647ba309c6d3fd2ebd900000000"/>
+		<Metadata name="CommonTemplate.ПисьмоСбросаПароля" id="45184319-dcdd-4bae-a119-d661c3c4a10d" configVersion="93ad66d60cf8c84fa03d28c5131ad4bb00000000"/>
+		<Metadata name="CommonTemplate.ПисьмоСбросаПароля.Template" id="45184319-dcdd-4bae-a119-d661c3c4a10d.0" configVersion="536b6fe65768d643bf1c9c65719521e000000000"/>
+		<Metadata name="Configuration.Авторизация" id="71c22745-b680-4edd-b9c6-3932b515c872" configVersion="8a0703405ea795458d240491bc47895500000000"/>
+		<Metadata name="Constant.Ф_АдресПортала" id="a88262ca-172e-4c16-bd86-c6b1dd36903a" configVersion="d7fc290c725ddd4886849cefdf0f15c100000000"/>
+		<Metadata name="HTTPService.ВебПортал" id="cc53db11-66db-43db-8be0-33f3fdbf331a" configVersion="94e1f810ed301242b110b2c73465ee7000000000">
+			<Metadata name="HTTPService.ВебПортал.URLTemplate.Основной" id="c19e3cef-5b09-4ff4-9be4-76830a223d34"/>
+			<Metadata name="HTTPService.ВебПортал.URLTemplate.Основной.Method.POST" id="e0f911ac-48fb-4760-a75a-72d3bb8c8df1"/>
+		</Metadata>
+		<Metadata name="HTTPService.ВебПортал.Module" id="cc53db11-66db-43db-8be0-33f3fdbf331a.0" configVersion="bfc3544e80058b4a82044341f84e1a9900000000"/>
+		<Metadata name="InformationRegister.КлючиАвторизацииВнешнихПользователей" id="ecb8fe59-2e30-4979-b1a3-68af54e326f5" configVersion="a4ad0ea4cf3f844ea002fb2ac770c38400000000">
+			<Metadata name="InformationRegister.КлючиАвторизацииВнешнихПользователей.Resource.ip" id="15075fe5-5b20-4967-a98f-5a4f2d38c74a"/>
+			<Metadata name="InformationRegister.КлючиАвторизацииВнешнихПользователей.Resource.fingerprint" id="19b4bf58-0fee-4717-816e-8717aab3e7cc"/>
+			<Metadata name="InformationRegister.КлючиАвторизацииВнешнихПользователей.Dimension.Пользователь" id="3a9a396c-f9b8-49ef-b002-48d26d7df797"/>
+			<Metadata name="InformationRegister.КлючиАвторизацииВнешнихПользователей.Resource.ua" id="8b6ded21-27a3-420d-ab45-423fac05df86"/>
+			<Metadata name="InformationRegister.КлючиАвторизацииВнешнихПользователей.Resource.ДатаФормирования" id="ac689ccc-964c-4836-8211-cc192e25e013"/>
+			<Metadata name="InformationRegister.КлючиАвторизацииВнешнихПользователей.Dimension.Ключ" id="bbe6d48a-9089-400e-8f9e-222351e62202"/>
+			<Metadata name="InformationRegister.КлючиАвторизацииВнешнихПользователей.Resource.СменаПароля" id="c152c7d8-153c-4862-a7eb-e28aee614cf0"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КодыПодтвержденияВнешнихПользователей" id="583a8dd3-0544-485b-863b-93abadf91ade" configVersion="22412081555c224dad8d86a62e3c792c00000000">
+			<Metadata name="InformationRegister.КодыПодтвержденияВнешнихПользователей.Dimension.Пользователь" id="32b6373c-252e-4754-97c4-b37abe61f9f5"/>
+			<Metadata name="InformationRegister.КодыПодтвержденияВнешнихПользователей.Resource.ДатаФормирования" id="666ccd31-644a-4f1c-9642-6febc9221fd7"/>
+			<Metadata name="InformationRegister.КодыПодтвержденияВнешнихПользователей.Dimension.КлючЗапроса" id="91f88d63-42db-4573-acd4-58eaa1d3eb1c"/>
+			<Metadata name="InformationRegister.КодыПодтвержденияВнешнихПользователей.Resource.КоличествоПопыток" id="a0b4e83e-1bab-4c42-a807-5acb350a6ff9"/>
+			<Metadata name="InformationRegister.КодыПодтвержденияВнешнихПользователей.Resource.Код" id="fe7a1c35-5318-4bc8-9872-db4398509112"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ПаролиВнешнихПользователей" id="55b7c575-a5e5-4102-a5b2-f85bec478ad6" configVersion="265b4dc637493a40b9135d686f1efeb600000000">
+			<Metadata name="InformationRegister.ПаролиВнешнихПользователей.Resource.Пароль" id="799dcf6e-60b4-406a-900f-de795be25be1"/>
+			<Metadata name="InformationRegister.ПаролиВнешнихПользователей.Dimension.Пользователь" id="84ea9d15-55f8-4bd1-b3c2-bf18f6cea6cc"/>
+			<Metadata name="InformationRegister.ПаролиВнешнихПользователей.Resource.ДатаИзменения" id="b71923d1-47c0-4fb8-97a0-385c88cd638a"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="957beb4d-8886-4484-8310-679d0459d715" configVersion="772ea16f14d5ae41b9d0345f41e55e9f00000000"/>
+		<Metadata name="SessionParameter.ТекущийПользователь" id="06be3af4-35e0-4d67-9284-5e16f5d2e7f8" configVersion="5eca2640581aae45a091d7baff22e4ab00000000"/>
+		<Metadata name="Subsystem.Авторизация" id="8bb01992-0790-49d3-a6db-4598c2ffa737" configVersion="f95a9f6960892a46a8bc65719f096e3100000000"/>
+		<Metadata name="Subsystem.Авторизация.CommandInterface" id="8bb01992-0790-49d3-a6db-4598c2ffa737.1" configVersion="2883efce494c05408e9bf914645a792700000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
